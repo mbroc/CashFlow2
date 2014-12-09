@@ -199,9 +199,9 @@
             this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label9.Location = new System.Drawing.Point(36, 78);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(236, 18);
+            this.label9.Size = new System.Drawing.Size(228, 18);
             this.label9.TabIndex = 17;
-            this.label9.Text = "Montant investissement matériels :";
+            this.label9.Text = "Montant investissement matériel :";
             // 
             // tb_ValeurResiduelle
             // 

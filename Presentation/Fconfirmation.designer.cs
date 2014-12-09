@@ -34,10 +34,10 @@
             this.lb_resid = new System.Windows.Forms.Label();
             this.lb_invMat = new System.Windows.Forms.Label();
             this.dg_conf = new System.Windows.Forms.DataGridView();
-            this.bt_fermer = new System.Windows.Forms.Button();
             this.ca = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.cf = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.cv = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.bt_fermer = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dg_conf)).BeginInit();
             this.SuspendLayout();
             // 
@@ -55,17 +55,17 @@
             // 
             this.lb_taux.AutoSize = true;
             this.lb_taux.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lb_taux.Location = new System.Drawing.Point(97, 87);
+            this.lb_taux.Location = new System.Drawing.Point(97, 144);
             this.lb_taux.Name = "lb_taux";
-            this.lb_taux.Size = new System.Drawing.Size(122, 18);
+            this.lb_taux.Size = new System.Drawing.Size(145, 18);
             this.lb_taux.TabIndex = 1;
-            this.lb_taux.Text = "Taux actualisé  :  ";
+            this.lb_taux.Text = "Taux d\'actualisation :";
             // 
             // lb_nbAnnees
             // 
             this.lb_nbAnnees.AutoSize = true;
             this.lb_nbAnnees.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lb_nbAnnees.Location = new System.Drawing.Point(97, 137);
+            this.lb_nbAnnees.Location = new System.Drawing.Point(97, 190);
             this.lb_nbAnnees.Name = "lb_nbAnnees";
             this.lb_nbAnnees.Size = new System.Drawing.Size(145, 18);
             this.lb_nbAnnees.TabIndex = 2;
@@ -75,17 +75,17 @@
             // 
             this.lb_resid.AutoSize = true;
             this.lb_resid.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lb_resid.Location = new System.Drawing.Point(97, 178);
+            this.lb_resid.Location = new System.Drawing.Point(97, 231);
             this.lb_resid.Name = "lb_resid";
-            this.lb_resid.Size = new System.Drawing.Size(129, 18);
+            this.lb_resid.Size = new System.Drawing.Size(123, 18);
             this.lb_resid.TabIndex = 3;
-            this.lb_resid.Text = "Valeur Résiduelle :";
+            this.lb_resid.Text = "Valeur résiduelle :";
             // 
             // lb_invMat
             // 
             this.lb_invMat.AutoSize = true;
             this.lb_invMat.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lb_invMat.Location = new System.Drawing.Point(97, 221);
+            this.lb_invMat.Location = new System.Drawing.Point(97, 95);
             this.lb_invMat.Name = "lb_invMat";
             this.lb_invMat.Size = new System.Drawing.Size(182, 18);
             this.lb_invMat.TabIndex = 4;
@@ -105,17 +105,6 @@
             this.dg_conf.TabIndex = 5;
             this.dg_conf.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
-            // bt_fermer
-            // 
-            this.bt_fermer.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bt_fermer.Location = new System.Drawing.Point(544, 346);
-            this.bt_fermer.Name = "bt_fermer";
-            this.bt_fermer.Size = new System.Drawing.Size(91, 35);
-            this.bt_fermer.TabIndex = 6;
-            this.bt_fermer.Text = "Fermer";
-            this.bt_fermer.UseVisualStyleBackColor = true;
-            this.bt_fermer.Click += new System.EventHandler(this.button1_Click);
-            // 
             // ca
             // 
             this.ca.HeaderText = "Chiffre d\'affaires";
@@ -130,6 +119,17 @@
             // 
             this.cv.HeaderText = "Charges variables";
             this.cv.Name = "cv";
+            // 
+            // bt_fermer
+            // 
+            this.bt_fermer.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bt_fermer.Location = new System.Drawing.Point(544, 346);
+            this.bt_fermer.Name = "bt_fermer";
+            this.bt_fermer.Size = new System.Drawing.Size(91, 35);
+            this.bt_fermer.TabIndex = 6;
+            this.bt_fermer.Text = "Fermer";
+            this.bt_fermer.UseVisualStyleBackColor = true;
+            this.bt_fermer.Click += new System.EventHandler(this.button1_Click);
             // 
             // Fconfirmation
             // 
